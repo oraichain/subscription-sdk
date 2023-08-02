@@ -1,0 +1,19 @@
+{
+  "name": "@oraichain/subscription-sdk",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@oraichain/subscription-contracts-build": "1.0.0",
+    "@oraichain/subscription-contracts-sdk": "1.0.0"
+  },
+  "devDependencies": {
+    "@oraichain/cw-simulate": "^2.8.33"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@oraichain/subscription-contracts-build",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "files": [
+    "build/",
+    "data/"
+  ],
+  "dependencies": {
+    "@oraichain/subscription-contracts-sdk": "1.0.0"
+  }
+}
