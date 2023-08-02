@@ -5,6 +5,7 @@
   "scripts": {
     "postinstall": "patch-package",
     "build": "tsc -p",
+    "test": "jest",
     "deploy": "yarn publish --access public --patch",
     "docs": "typedoc --entryPointStrategy expand --name 'Common SDK' --readme none --tsconfig packages/contracts-sdk/tsconfig.json packages/contracts-sdk/src"
   },
